@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    {{project-name}}:
+        image: {{project-name}}
+        build:
+            context: .
